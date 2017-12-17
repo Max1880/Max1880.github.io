@@ -1,0 +1,93 @@
+
+#game-context {
+  padding: 2em 0 2em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+#game-journal {
+  width: 40vw;
+  height: 60vh;
+  padding: 5em 2.5em 6em 2.5em;
+  margin-right: 0.5em;
+  background-image: url(../media/fjournal.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(61, 255, 120);
+  overflow: hidden;
+}
+
+#journal {
+  height: 100%;
+  overflow: auto;
+}
+
+#game-action {
+  width: 40vw;
+  height: 67vh;
+  padding: 2em;
+  margin-left: 0.5em;
+}
+
+#game-action .flex-container {
+  flex-flow: column nowrap;
+ }
+
+#action .min-button {
+  width: 8em;
+  padding: 1em 1em;
+  margin-right: 0.3em;
+}
+
+#action {
+  width: 100%;
+  height: 85%;
+  margin-bottom: 1em;
+}
+
+#action p {
+  margin-bottom: 1em;
+}
+
+.button-long {
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  margin-top: 0.4em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+}
+
+.axioms {
+  width: 6.2em;
+  margin-left: 0.4em;
+}
+
+.mistake:active{
+  background-color: #f00;
+  outline: 0.3em solid #f00;
+  outline-offset: -0.3em;
+}
+
+#next {
+  margin-right: 2em;
+}
+
+#game-action video {
+  width: 100%;
+  height: 100%;
+}
+
+#play-yes {
+  display: inline-block;
+  margin-right: 2em;
+  background-color: #333;
+}
+
+#play-no {
+  display: inline-block;
+  margin-right: 2em;
+  background-color: #333;
+  /* background-color: rgb(143, 6, 24); */
+}
